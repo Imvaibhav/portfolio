@@ -1,1 +1,65 @@
-/* your styles go here */
+/*********************progress bar animation*************************/
+#progressbar {
+    height: 30px;
+    background-color: #f2f2f2;
+    clear: both;
+    overflow: hidden;
+}
+
+#progress {
+    background: #4fbfa8; /*-- Color of the bar --*/
+    height: 30px;
+    width: 0%;
+    margin-bottom: 20px;
+    max-width: 100%;
+    float: left;
+    -webkit-animation: progress 2s 1 forwards;
+    -moz-animation: progress 2s 1 forwards;
+    -ms-animation: progress 2s 1 forwards;
+    animation: progress 2s 1 forwards;
+}
+.six-sec-ease-in-out {
+  -webkit-transition: width 6s ease-in-out;
+  -moz-transition: width 6s ease-in-out;
+  -ms-transition: width 6s ease-in-out;
+  -o-transition: width 6s ease-in-out;
+  transition: width 6s ease-in-out;
+}
+
+#pbaranim {
+    height: 30px;
+    width: 100%;
+    overflow: hidden;
+    background: url('http://www.cssdeck.com/uploads/media/items/7/7uo1osj.gif') repeat-x;
+    background-size: cover;
+    -moz-opacity: 0.25;
+    -khtml-opacity: 0.25;
+    opacity: 0.25;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=25);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=25);
+    filter: alpha(opacity=25);
+}
+
+@-webkit-keyframes progress { 
+    from { }
+
+    to { width: 80% }
+}
+
+@-moz-keyframes progress { 
+    from { }
+
+    to { width: 80% }
+}
+
+@-ms-keyframes progress { 
+    from { }
+
+    to { width: 80% }
+}
+
+@keyframes progress { 
+    from { }
+
+    to { width: 80% }
+}
