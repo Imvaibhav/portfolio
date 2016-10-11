@@ -1,3 +1,23 @@
+/*********************Remove Z-index***************************/
+.remove_z-index{
+  z-index: 0;
+}
+
+/*************************Intro*************************************/
+#intro .item{
+
+    position: relative;
+    top:16%;
+}
+#intro .item .carousel-caption{
+    position: relative;
+    top: 0px;
+}
+#intro .item .logo{
+    margin-bottom: 50px;
+}
+/*********************** Twitterr ************************************/
+
 /*********************progress bar animation*************************/
 #progressbar {
     height: 30px;

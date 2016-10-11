@@ -172,6 +172,7 @@ INTRO
 }
 #intro .item {
   height: 100%;
+  top: 60px;
   background: url('../img/home.jpg') center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -238,6 +239,9 @@ INTRO
 #intro .row {
   height: 100%;
   position: relative;
+}
+.remove_z-index{
+  z-index: 0;
 }
 /*
 
