@@ -1,4 +1,14 @@
+// window.onload=function(e){
+// 	var old_div=document.getElementById("intro");
+//    	old_div.removeAttribute("height");	
+// }
 
-$(document).ready(function() {
-  $('.progress .progress-bar').progressbar({display_text: 'center'});
-});
+// function scrollFunction() {
+//   			  // do your stuff here;
+//   			  var scroll=document.body.scrollTop;
+//   			  
+//   			  var div=document.getElementById("p");
+//   				div.innerHTML="u r scroll "+scroll+"px";
+// 		}
+
+// 		document.onscroll = scrollFunction;
