@@ -1,7 +1,7 @@
-// window.onload=function(e){
-// 	var old_div=document.getElementById("intro");
-//    	old_div.removeAttribute("height");	
-// }
+window.onload=function(e){
+	var old_div=document.getElementById("intro");
+   	old_div.removeAttribute("height");	
+};
 
 // function scrollFunction() {
 //   			  // do your stuff here;
@@ -12,3 +12,4 @@
 // 		}
 
 // 		document.onscroll = scrollFunction;
+
