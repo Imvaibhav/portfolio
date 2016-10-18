@@ -3,7 +3,6 @@ if ($.cookie("theme_csspath")) {
 }
 
 $(function () {
-
     animations();
     sliders();
     fullScreenContainer();

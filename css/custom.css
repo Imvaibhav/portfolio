@@ -26,14 +26,22 @@
     width: 100px;
     z-index: 500;
 }
-
+.modal-width{
+    width: 200px;
+}
+.modal-height{
+    top=256px
+}
+.modal-content{
+    background-color: rgba(0, 0, 0, 0.90);
+}
 #twitter_btn {
     position: fixed;
-    top: 150px;
+    top: 555px;
     left: 0px;
     width: 200px;
-    z-index: -100;
-    background-color: #F5F5F5;
+    z-index: 5000;
+    background-color: rgba(0, 0, 0, 0.90);
 }
 
 .myHide {
@@ -42,6 +50,10 @@
 
 .show {
     display: block;
+}
+#twitter_btn #twitter-widget-0 .timeline-Viewport{
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 
